@@ -1,0 +1,113 @@
+/*navbar start*/
+.navbar-brand {
+    font-size: 35px;
+    color: #2f71ff!important;
+}
+.menu ul li a{
+	padding:0 20px !important;
+	color: #000000a8 !important;
+	font-size:18px;
+	font-weight:500;
+	text-transform:capitalize;
+}
+.menu ul li a:hover{
+	color:#2f71ff!important;
+	transition:all .4s ease-in-out;
+}
+/*navbar end*/
+
+
+/*service start*/
+
+.service{
+	padding-top:150px;
+	padding-bottom: 70px;
+}
+h6 {
+font-size: 24px;
+font-weight: 400;
+color: #2f71ff;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+h4{
+	font-weight:400;
+	font-size:24px;
+	text-transform:capitalize;
+	margin-top:8px;
+}
+p{
+	font-weight:400;
+	font-size:15px;
+	padding:6px 0;
+}
+.single-service, .single-blog{
+	padding: 45px 30px;
+	margin-top: 20px;
+	background: aliceblue;
+	border-radius:10px;
+}
+i{
+	font-size:50px;
+	margin-bottom:10px;
+	color: #7a9fc0;
+}
+/*service end*/
+
+/*blog start*/
+.blog{
+	background:#091631;
+}
+.single-blog{
+	background:#091631;
+}
+.single-blog i{
+	color:#fff;
+}
+/*blog end*/
+
+/*partner start*/
+.partner{
+	padding:80px 0;
+}
+.partner h1{
+	font-size:60px;
+	line-height:70px;
+}
+.partner p{
+	font-size:16px;
+	font-weight:300;
+}
+.partner a{
+	color:#fff;
+	text-transform:uppercase;
+	padding:10px 20px;
+}
+.partner-img{
+	text-align:center;
+}
+/*partner end*/
+
+@media (max-width: 767px){
+.partner h1{
+	font-size:30px;
+	line-height:35px;
+}
+}
+
+/*foooter start*/
+footer ul li{
+	font-size: 20px;
+}
+footer ul li a{
+	font-size:16px;
+	text-decoration: none !important;
+	font-weight:400;
+	color:#000;
+}
+/*foooter end*/
